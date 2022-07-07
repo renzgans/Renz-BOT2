@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'PENTABOT'
-  var sticker_author = 'By GEMPY'
+  var sticker_name = 'RenzBotZ'
+  var sticker_author = 'By Renz'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
