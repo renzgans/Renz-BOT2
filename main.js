@@ -131,7 +131,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendMessage(`6287898307350@s.whatsapp.net`, {text: 'BERHASIL TERSAMBUNG KE BOT ✿𝐆𝐞𝐦𝐩𝐲 𝐓𝐨𝐧✿ JANGAN LUPA SAVE GEMPY, PASTI DI SAVEBACK' })
+  if (update.receivedPendingNotifications) conn.sendMessage(`6287898307350@s.whatsapp.net`, {text: 'BERHASIL TERSAMBUNG KE BOT RenzBotZ JANGAN LUPA SAVE Renz, PASTI DI SAVEBACK' })
 }
 
 
@@ -167,7 +167,7 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'HALO @user 👋\n SELAMAT DATANG DI  @subject \n❋Owner Renz Ganteng❋\n-Semoga betah\n-Antilink On 24 Jam\nDonasi : 𝙳𝙰𝙽𝙰\n wa.me/6281250365581' 
+  conn.welcome = 'HALO @user 👋\n SELAMAT DATANG DI  @subject \n❋Jasa Sewa❋\n-Semoga betah\n-Antilink On 24 Jam\nDonasi : 𝙳𝙰𝙽𝙰\n wa.me/6281250365581' 
   conn.bye = 'YAHHH @user TELAH KELUAR DARI @subject'
   conn.spromote = '@user sekarang admin, seneng lu anj!'
   conn.sdemote = '@user sekarang bukan admin, yahahaha!'
